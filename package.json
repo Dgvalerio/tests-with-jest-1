@@ -4,5 +4,16 @@
   "main": "index.js",
   "repository": "https://github.com/Dgvalerio/tests-with-jest-1.git",
   "author": "Davi Gonçalves Valério <al.davigvalerio@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "scripts": {
+    "start": "node index.js",
+    "test": "jest"
+  },
+  "dependencies": {
+    "jest": "^27.1.1",
+    "supertest": "^6.1.6"
+  },
+  "devDependencies": {
+    "express": "^4.17.1"
+  }
 }
